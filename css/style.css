@@ -1,0 +1,20 @@
+a.EP{
+    background-image:linear-gradient(#FF0000, #366180);
+    padding:5px 30px 5px 30px;
+    text-decoration:none;
+    border-radius:5px;
+    border:1px solid #000;
+    margin-left:10%;
+}
+a.EP:hover{
+    background-image:linear-gradient(#366180, #FF0000);
+    padding:5px 30px 5px 30px;
+    text-decoration:none;
+    border-radius:5px;
+    border:1px solid #000;
+    margin-left:11%;
+}
+
+.ytb{
+background:url(/image.png);
+}
