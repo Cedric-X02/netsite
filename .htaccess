@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  # Unless directory, remove trailing slash
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^([^/]+)/$ https://www.narutovf.tk/$1 [R=301,L]
+  # Redirect external .html requests to extensionless url
+  RewriteCond %{THE_REQUEST} ^(.+)\.html([#?][^\ ]*)?\ HTTP/
+  RewriteRule ^(.+)\.html$ https://www.narutovf.tk/$1 [R=301,L]
+  # Resolve .html file for extensionless html urls
+  RewriteRule ^([^/.]+)$ $1.html [L]
+</IfModule>
