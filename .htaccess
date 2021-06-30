@@ -9,3 +9,5 @@
   # Resolve .html file for extensionless html urls
   RewriteRule ^([^/.]+)$ $1.html [L]
 </IfModule>
+
+ErrorDocument 404 /404.html
