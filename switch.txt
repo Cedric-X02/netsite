@@ -1,0 +1,16 @@
+Pour créer un nouveau code pour le contrôle parental :
+
+-Bouton Home
+-Paramètre de la console
+-Contrôle parental
+-Changer les paramètres
+-Aide
+-Copier le numéro de requête xxxxx-xxxxx
+Sur votre pc allez sur le site https://mkey.salthax.org/
+Device type: Switch
+System date: La date du jour
+Inquiry number: Recopiez votre numéro de requête puis> Ok
+Le site vous génère alors “Your master key is” : xxxxxxxx
+Retournez sur la console
+-Entrer le code général (The master key)
+-Créer un nouveau code et c’est tout !
